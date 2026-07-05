@@ -148,11 +148,11 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 |------|--------------|---------|---------|-------|
 | ✏️ | AISA-Think baseline (reference) | 0.717 | 0.739 | test |
 | ✏️ | Baseline + post-processing  | 0.7649 | 0.7828 | dev |
-| ✏️ | unsloth FunctionGemma3 270m with  1 epoch | 0.7818 | 0.8154 |  dev |
-| ✏️ | unsloth FunctionGemma3 270m with  2 epoch | 0.8019 |0.818 |  dev |
-| ✏️ | unsloth FunctionGemma3 270m with  3 epoch | 0.7951 |0.8215|  dev |
-| ✏️ | unsloth FunctionGemma3 270m with  2 epoch + post-processing | 0.8019 |0.818 |  dev |
-| ✏️ | unsloth FunctionGemma3 1b with  2 epoch | 0.8721 |0.8931 |  dev |
+| ✏️ | unsloth FunctionGemma3 270m with  1 ep | 0.7818 | 0.8154 |  dev |
+| ✏️ | unsloth FunctionGemma3 270m with  2 ep | 0.8019 |0.818 |  dev |
+| ✏️ | unsloth FunctionGemma3 270m with  3 ep | 0.7951 |0.8215|  dev |
+| ✏️ | unsloth FunctionGemma3 270m with  2 ep + post-processing | 0.8019 |0.818 |  dev |
+| ✏️ | unsloth FunctionGemma3 1b with  2 ep | 0.8721 |0.8931 |  dev |
 
 
 
@@ -164,16 +164,10 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 - Dataset: https://huggingface.co/datasets/TuwaiqAcademy/AISA-ArabicFC
 - Baseline model: https://huggingface.co/TuwaiqAcademy/AISA-AR-FunctionCall-Think
 - Leaderboard: https://huggingface.co/spaces/TuwaiqAcademy/AISA-ArabicFC-SharedTask-Leaderboard
-- Register: https://tuwaiq.edu.sa/form/rL7Bl3wq
 - Organizer contact: trdc@tuwaiq.edu.sa
 
 ---
 
-## 📝 Decisions Log
-
-- (Write any important decision here with its date so everyone stays in sync.)
-
----
 
 ## ✅ Conventions
 
