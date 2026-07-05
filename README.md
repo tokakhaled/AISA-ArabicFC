@@ -85,7 +85,7 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 
 ## ✅ Milestones
 
-- [x] **M1** : Baseline inference + parsing working
+<!-- - [x] **M1** : Baseline inference + parsing working
 - [x] **M2** : Local scoring (Track A + B)
 - [x] **M3** : Post-processing v1 → 0.766 dev
 - [x] **M4** : Error analysis on Baseline (failure buckets + per-function)
@@ -95,7 +95,7 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 - [ ] **M8** : Per-dialect check (don't let Gulf/Levantine drag us down)
 - [ ] **M9** : (Optional) Track B ThinkRate
 - [ ] **M10** : Blind test run + final submission (July 20 to 30)
-- [ ] **M11** : System description paper (due Aug 22)
+- [ ] **M11** : System description paper (due Aug 22)-->
 
 ---
 
