@@ -156,7 +156,7 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 | ✏️ | unsloth FunctionGemma4 E2B | 0.9112 |0.9165 |  dev |
 | ✏️ | unsloth FunctionGemma4 E4B | 0.888 |- |  dev |
 | ✏️ | unsloth Qwen3-4B | 0.9253 |0.9207 |  dev |
-| ✏️ | unsloth Qwen3-4B + inference fixes | 0.9316 |0.9430 |  dev |
+| ✏️ | unsloth Qwen3-4B + inference pre / post-processing  | 0.9316 |0.9430 |  dev |
 
 
 
