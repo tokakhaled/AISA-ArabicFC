@@ -2,8 +2,6 @@
 
 > Arabic Function Calling for Agentic AI Systems · ArabicNLP 2026 
 > Shared team file. Anyone on the team can edit.
-> Last updated: ✏️ 4 jul.
-
 ---
 
 ## ⏰ Read This First : Timeline Is Tight
@@ -83,44 +81,6 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 
 ---
 
-## ✅ Milestones
-
-## ✅ Milestones
-
-### Done
-- [x] **M1** : Baseline inference + parsing working
-- [x] **M2** : Local scoring (Track A + B)
-- [x] **M3** : Error analysis on baseline (failure buckets + per-function)
-- [x] **M4** : Post-processing v1 (built from M3 buckets) → 0.766 dev
-- [x] **M5** : FunctionGemma 270M LoRA fine-tune → 0.8019 dev (2 ep)
-
-### In progress
-- [ ] **M6** : Fix broken notebook cells (`unsloth_ppp.ipynb` cell 1 truncated)
-- [ ] **M7** : Scale model → Gemma 3 1B (same pipeline, batch 4/4, max_new_tokens 300)
-      → if ArgEM moves +1pt or more, queue 4B (QLoRA, batch 2/8, lr 1e-4)
-
-### Next (priority order)
-- [ ] **M8** : Scorer verification — submit same file raw vs canonicalized to dev
-      leaderboard. Decides if normalization is our job or the scorer's.
-      ⚠️ Also check: does official ArgEM penalize extra keys? Our local scorer doesn't.
-- [ ] **M9** : Error analysis v2 — rerun buckets on the FINE-TUNED model (not baseline).
-      PP v1 rules came from baseline errors; the fine-tune already learned those
-      (that's why PP added +0.000 on the 2-ep model).
-- [ ] **M10** : Post-processing v2 (built from M9 buckets — expect dates/times,
-      numeric units, dialect value phrasing, not enum canonicalization)
-- [ ] **M11** : Parse-failure audit — count dev gens that fail the call regex
-      (each = guaranteed zero). Add repair pass if >1%.
-- [ ] **M12** : Per-dialect breakdown — if Gulf/Levantine ArgEM lags, augment:
-      LLM-paraphrase MSA queries into weak dialects (gold call untouched), mix ~1–2k rows.
-      Also augment negatives (only 125 "none" samples in train).
-- [ ] **M13** : Track split — submit 2-epoch checkpoint to Track A, 3-epoch to Track B
-      (per score log: 2ep best A, 3ep best B)
-- [ ] **M14** : (Optional) Self-consistency k=5 majority-vote on args — only if time
-- [ ] **M15** : Blind test run + final submission (Jul 20–30)
-- [ ] **M16** : System description paper (due Aug 22)
-
----
-
 ## 🗓️ Timeline (official dates)
 
 | Date | Milestone | Team Saqr action |
@@ -131,14 +91,6 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 | **Jul 30** | Final results | Check ranking |
 | **Aug 22** | System paper camera-ready | Write-up (cite the 3 required papers) |
 | Oct 24-29 | ArabicNLP 2026, Budapest | Present if selected |
-
----
-
-## 👥 Work Split
-
-| Task | Owner | Status |
-|------|-------|--------|
-| ''''''''''''' | ✏️ | ⬜ |
 
 ---
 
@@ -157,12 +109,6 @@ Key insight: FnAcc is basically solved (0.982). **ArgEM at 0.541 is wide open.**
 | ✏️ | unsloth FunctionGemma4 E4B | 0.888 |- |  dev |
 | ✏️ | unsloth Qwen3-4B | 0.9253 |0.9207 |  dev |
 | ✏️ | unsloth Qwen3-4B + inference pre / post-processing  | 0.9316 |0.9430 |  dev |
-
-
-
-
-
-
 
 
 ---
